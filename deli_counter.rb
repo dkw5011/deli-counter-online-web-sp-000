@@ -12,7 +12,6 @@ def line(array)
 end
 
 def take_a_number(deli, string)
-  binding.pry
   deli << string
   last_name = new_deli.pop
   number = new_deli.size
