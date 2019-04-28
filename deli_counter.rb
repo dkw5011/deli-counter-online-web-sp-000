@@ -12,6 +12,7 @@ def line(array)
 end
 
 def take_a_number(deli, string)
+  binding.pry
   new_array = string.split(/ /)
   new_deli = deli.concat(new_array)
   last_name = new_deli.pop
