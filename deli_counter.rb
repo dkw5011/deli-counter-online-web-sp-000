@@ -17,8 +17,15 @@ def take_a_number(deli, string)
   puts "Welcome, #{string}. You are number #{number} in line."
 end
 
-def now_serving
-  if 
+def now_serving(array)
+  if array.count > 0
+    next_person = array.shift
+    puts "currently serving #{next_person}."
+  else
+    puts "There is nobody waiting to be served!"
+  end
+end
+
 
   
   
