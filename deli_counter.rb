@@ -13,8 +13,8 @@ end
 
 def take_a_number(deli, string)
   deli << string
-  last_name = new_deli.pop
-  number = new_deli.size
+  last_name = deli.pop
+  number = deli.size
   puts "Welcome, #{last_name}. You are number #{number} in line."
 end
 
