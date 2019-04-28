@@ -17,6 +17,8 @@ def take_a_number(deli, string)
   puts "Welcome, #{string}. You are number #{number} in line."
 end
 
+def now_serving
+  if 
 
   
   
