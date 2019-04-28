@@ -13,8 +13,7 @@ end
 
 def take_a_number(deli, string)
   binding.pry
-  new_array = string.split(/ /)
-  new_deli = deli.concat(new_array)
+  new_deli = deli << string
   last_name = new_deli.pop
   number = new_deli.size
   puts "Welcome, #{last_name}. You are number #{number} in line."
