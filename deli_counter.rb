@@ -13,7 +13,7 @@ end
 
 def take_a_number(deli, string)
   binding.pry
-  new_deli = deli << string
+  deli << string
   last_name = new_deli.pop
   number = new_deli.size
   puts "Welcome, #{last_name}. You are number #{number} in line."
